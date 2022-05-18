@@ -1,0 +1,16 @@
+.page-header {
+    position: relative;
+    border-bottom: 1px solid #ECECEC;
+    background-color: $primary-white-color;
+
+    // @media screen and (max-width: 767px) {
+    //     border: none;
+    // }
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+}
