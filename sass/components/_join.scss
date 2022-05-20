@@ -15,9 +15,12 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-align: center;
-
     color: $primary-white-color;
     margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px) {
+            text-align: left;
+    }
 }
 
 .join__contacts {

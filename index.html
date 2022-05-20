@@ -46,28 +46,30 @@
                     </ul>
                 </nav> 
                 <!-- Контакты -->
-                <ul class="contacts list">
-                    <li class="contacts__item">
-                        <a href="mailto:info@devstudio.com" class="contacts__link contacts__link--textSize">
-                            <svg class="contacts__icon" width="16px" height="12px">
-                                <use href="./images/icons.svg#icon-envelope"></use>
-                            </svg>info@devstudio.com
-                        </a>
-                    </li>
-                    <li class="contacts__item">
-                        <a href="tel:+380961111111" class="contacts__link contacts__link--large">
-                            <svg class="contacts__icon" width="10px" height="16px">
-                                <use href="./images/icons.svg#icon-smartphone"></use>
-                            </svg> +38 096 111 11 11 
-                        </a>
-                    </li>
-                </ul>
-                <ul class="mobile-socialmedia list">
-                    <li class="mobile-socialmedia__item"><a href="" class="mobile-socialmedia__link">Instagram</a></li>
-                    <li class="mobile-socialmedia__item"><a href="" class="mobile-socialmedia__link">Twitter</a></li>
-                    <li class="mobile-socialmedia__item"><a href="" class="mobile-socialmedia__link">Facebook</a></li>
-                    <li class="mobile-socialmedia__item"><a href="" class="mobile-socialmedia__link">LinkedIn</a></li>
-                </ul>
+                <div class="mobile-contacts">
+                    <ul class="contacts list">
+                        <li class="contacts__item">
+                            <a href="mailto:info@devstudio.com" class="contacts__link contacts__link--textSize">
+                                <svg class="contacts__icon" width="16px" height="12px">
+                                    <use href="./images/icons.svg#icon-envelope"></use>
+                                </svg>info@devstudio.com
+                            </a>
+                        </li>
+                        <li class="contacts__item">
+                            <a href="tel:+380961111111" class="contacts__link contacts__link--large">
+                                <svg class="contacts__icon" width="10px" height="16px">
+                                    <use href="./images/icons.svg#icon-smartphone"></use>
+                                </svg> +38 096 111 11 11 
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="mobile-socialmedia list">
+                        <li class="mobile-socialmedia__item"><a href="" class="mobile-socialmedia__link">Instagram</a></li>
+                        <li class="mobile-socialmedia__item"><a href="" class="mobile-socialmedia__link">Twitter</a></li>
+                        <li class="mobile-socialmedia__item"><a href="" class="mobile-socialmedia__link">Facebook</a></li>
+                        <li class="mobile-socialmedia__item"><a href="" class="mobile-socialmedia__link">LinkedIn</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -486,7 +488,7 @@
          <h2 class="modal__title">Оставьте свои данные, мы вам перезвоним</h2>
          <form name="form" action="#" autocomplete="off">
             
-                <label class="form__field" for="name">
+                <label class="form__field">
                     <span class="form__label">Имя</span>
                     <svg class="form__icon" width="18px" height="18px">
                         <use href="./images/icons.svg#icon-person-black"></use>
@@ -494,7 +496,7 @@
                     <input class="form__input" type="text" name="user-name" />
                 </label>
 
-                <label class="form__field" for="tel">
+                <label class="form__field">
                     <span class="form__label">Телефон</span>
                     <svg class="form__icon" width="18px" height="18px">
                         <use href="./images/icons.svg#icon-phone-black"></use>
@@ -502,7 +504,7 @@
                     <input class="form__input" type="tel" name="tel" />
                 </label>
            
-                <label class="form__field" for="mail">
+                <label class="form__field">
                     <span class="form__label">Почта</span>
                     <svg class="form__icon" width="18px" height="18px">
                         <use href="./images/icons.svg#icon-email-black"></use>
@@ -510,7 +512,7 @@
                     <input class="form__input" type="email" name="mail" />
                 </label>
 
-                <label class="form__field" for="form-textarea">
+                <label class="form__field">
                     <span class="form__label">Комментарий</span>
                     <textarea class="form__input form__textarea" name="form-comment" placeholder="Введите текст"></textarea>
                 </label>
